@@ -75,6 +75,7 @@ contract Battle is IERC721Receiver, Utils {
         require(ownerNFT == msg.sender, "not owner");
         require(faction < factionList.length, "invalid faction");
         require(nftId2index[nftId] == 0, "already join");
+        require(!finished, "already finished");
 
         IERC721(warriorAddress).safeTransferFrom(
             msg.sender,

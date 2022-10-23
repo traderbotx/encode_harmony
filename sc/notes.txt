@@ -1,0 +1,2 @@
+Kingdom address: 0x40bC6CFce5c5321836eB1A2923D2EEBaa92bA163
+Warrior address: 0x012d9713f35Ebe74bdF96c4E7c5df3f237BF4BF3
