@@ -1,0 +1,373 @@
+{
+  "contractName": "IWarrior",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "retrieveYield",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "nftId",
+          "type": "uint256"
+        }
+      ],
+      "name": "warriorStat",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "genetic",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "power",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint8",
+          "name": "attack",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint8",
+          "name": "defense",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint8",
+          "name": "magic",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint8",
+          "name": "luck",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"retrieveYield\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"nftId\",\"type\":\"uint256\"}],\"name\":\"warriorStat\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"genetic\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"power\",\"type\":\"uint256\"},{\"internalType\":\"uint8\",\"name\":\"attack\",\"type\":\"uint8\"},{\"internalType\":\"uint8\",\"name\":\"defense\",\"type\":\"uint8\"},{\"internalType\":\"uint8\",\"name\":\"magic\",\"type\":\"uint8\"},{\"internalType\":\"uint8\",\"name\":\"luck\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IWarrior.sol\":\"IWarrior\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IWarrior.sol\":{\"keccak256\":\"0x56b0f5033d59f6538dba8f6710632d1936b559786c34886dac8d9396d168fdfb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://841ac5a81014c1d73e7274385ea62e003b7deb836e459552b382bc06b983e52b\",\"dweb:/ipfs/QmPqdZNx6xYBez3S5mcAQTQAZNcUPSAZPuH5GDDCWCfgA5\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.4;\n\ninterface IWarrior {\n    function retrieveYield() external;\n\n    function warriorStat(uint256 nftId)\n        external\n        view\n        returns (\n            uint256 genetic,\n            uint256 power,\n            uint8 attack,\n            uint8 defense,\n            uint8 magic,\n            uint8 luck\n        );\n}\n",
+  "sourcePath": "/home/aetherium/Projects/Warrior/encodeXharmony/sc/contracts/IWarrior.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IWarrior.sol",
+    "exportedSymbols": {
+      "IWarrior": [
+        2559
+      ]
+    },
+    "id": 2560,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2538,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:12"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IWarrior",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 2559,
+        "linearizedBaseContracts": [
+          2559
+        ],
+        "name": "IWarrior",
+        "nameLocation": "67:8:12",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "f033da71",
+            "id": 2541,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "retrieveYield",
+            "nameLocation": "91:13:12",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2539,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "104:2:12"
+            },
+            "returnParameters": {
+              "id": 2540,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "115:0:12"
+            },
+            "scope": 2559,
+            "src": "82:34:12",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "2e519592",
+            "id": 2558,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "warriorStat",
+            "nameLocation": "131:11:12",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2544,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2543,
+                  "mutability": "mutable",
+                  "name": "nftId",
+                  "nameLocation": "151:5:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2558,
+                  "src": "143:13:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2542,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "143:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "142:15:12"
+            },
+            "returnParameters": {
+              "id": 2557,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2546,
+                  "mutability": "mutable",
+                  "name": "genetic",
+                  "nameLocation": "226:7:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2558,
+                  "src": "218:15:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2545,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "218:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2548,
+                  "mutability": "mutable",
+                  "name": "power",
+                  "nameLocation": "255:5:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2558,
+                  "src": "247:13:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2547,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "247:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2550,
+                  "mutability": "mutable",
+                  "name": "attack",
+                  "nameLocation": "280:6:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2558,
+                  "src": "274:12:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 2549,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "274:5:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2552,
+                  "mutability": "mutable",
+                  "name": "defense",
+                  "nameLocation": "306:7:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2558,
+                  "src": "300:13:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 2551,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "300:5:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2554,
+                  "mutability": "mutable",
+                  "name": "magic",
+                  "nameLocation": "333:5:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2558,
+                  "src": "327:11:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 2553,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "327:5:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2556,
+                  "mutability": "mutable",
+                  "name": "luck",
+                  "nameLocation": "358:4:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2558,
+                  "src": "352:10:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 2555,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "352:5:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "204:168:12"
+            },
+            "scope": 2559,
+            "src": "122:251:12",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2560,
+        "src": "57:318:12",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:344:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-10-18T04:54:45.707Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
