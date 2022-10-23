@@ -2,7 +2,7 @@
 
 This is submission for hackathon [Encode X Harmony](https://www.encode.club/harmony-hackathon)
 
-![](https://res.cloudinary.com/dey55ubjm/image/upload/v1666534165/yw/ss.png)
+![](https://res.cloudinary.com/dey55ubjm/image/upload/v1666534722/yw/sss.png)
 
 Check the [Yield Warriors in Harmony Testnet](https://yw.traderbotx.space)
 
